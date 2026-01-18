@@ -50,28 +50,28 @@ Designed with strong governance, auditability, and safety constraints from the g
 
 ```text
                     ┌──────────────────────────────┐
-                    │      Public & Semi-Private   │
-                    │         Repositories         │
-                    └───────────────┬──────────────┘
-                                    │ new artifacts
-                                    ▼
+                    │    Public & Semi-Private     │
+                    │        Repositories          │
+                    └─────────────┬────────────────┘
+                                  │ new artifacts
+                                  ▼
                     ┌──────────────────────────────┐
                     │   Passive Monitoring Layer   │  ← continuous, low-noise
-                    └───────────────┬──────────────┘
-                                    │ filtered hits
-                                    ▼
+                    └─────────────┬────────────────┘
+                                  │ filtered hits
+                                  ▼
           ┌───────────────────────┴────────────────────────┐
           │                                                │
 ┌─────────────────────┐                      ┌─────────────────────────────┐
-│  Lightweight       │                      │  Tychon AI Forensic Engine  │ ← batch cycle (v4.2.0)
-│  Metadata Stream   │                      └─────────────────────────────┘
-└─────────────────────┘                                 │
+│  Lightweight        │                      │  Tychon AI Forensic Engine  │ ← batch cycle (v4.2.0)
+│  Metadata Stream    │                      └─────────────────────────────┘
+└─────────────────────┘                                   │
           │                                     multi-tab HTML reports
           ▼                                               │
 ┌─────────────────────┐                      ┌─────────────────────────────┐
-│   Detection &       │◄─────────────────────┤   Transmission Chamber      │
+│   Detection &       │◄─────────────────────┤     Transmission Chamber    │
 │   Enrichment Flow   │                      └─────────────────────────────┘
-└─────────────────────┘                                 ▲
+└─────────────────────┘                                   ▲
           │                                               │
           └───────────────────────► SIEM / MISP / Internal DB
 ```
