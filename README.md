@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="https://via.placeholder.com/120x120/0a1f14/00cc88?text=GC" alt="Garden Collector Logo" width="120" height="120"/>
-
   <h1>GARDEN COLLECTOR <sup>v4.2.0</sup></h1>
 
   <p>
