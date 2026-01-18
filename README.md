@@ -50,7 +50,7 @@ Designed with strong governance, auditability, and safety constraints from the g
 
 ```text
                     ┌──────────────────────────────┐
-                    │    Public & Semi-Private     │
+                    │      Public & Private        │
                     │        Repositories          │
                     └─────────────┬────────────────┘
                                   │ new artifacts
